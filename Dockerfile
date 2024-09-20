@@ -9,4 +9,4 @@ RUN if [ -f requirements.txt ]; then pip install --no-cache-dir -r requirements.
 EXPOSE 8000
 
 
-CMD ["python", "app.py"
+CMD ["python", "app.py"]
